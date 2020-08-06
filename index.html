@@ -4,8 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>プリンセスコネクト！Re:Dive</title>
+  <meta name="description" content="プリンセスコネクト！Re:Dive (プリコネR)">
+  <meta name="keywords" content="プリンセスコネクト,Re:Dive,プリコネ,プリコネR,リダイブ">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
   <meta name="applicable-device" content="mobile">
+  <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+  <link rel="icon" type="image/png" href="/static/favicon_16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/static/favicon_32x32.png" sizes="32x32">
   <style>
     body {
       overflow: hidden;
@@ -42,7 +47,7 @@
       width: 100%;
       height: 100%;
       position: absolute;
-      background-image: url(./images/video_mask.png);
+      background-image: url(/static/video_mask.png);
       background-size: cover;
       background-repeat: no-repeat;
       top: 0;
@@ -96,15 +101,15 @@
 
 <body>
   <main class="page">
-    <video loop="loop" preload="" autoplay="autoplay" muted="muted" poster="./images/video_bg.jpg">
-      <source src="./images/video_bg.mp4" type="audio/mp4">
-      <source src="./images/video_bg.webm" type="video/webm">
+    <video loop="loop" preload="" autoplay="autoplay" muted="muted" poster="/static/video_bg.jpg">
+      <source src="/static/video_bg.mp4" type="audio/mp4">
+      <source src="/static/video_bg.webm" type="video/webm">
       Your browser does not support the video element.
     </video>
     <div class="video-mask"></div>
-    <img class="logo" src="./images/logo.png">
-    <img class="staff" src="./images/staff.png">
-    <img class="catchcopy" src="./images/catchcopy.png">
+    <img class="logo" src="/static/logo.png">
+    <img class="staff" src="/static/staff.png">
+    <img class="catchcopy" src="/static/catchcopy.png">
   </main>
   <script>
     function initVideoStyle() {
